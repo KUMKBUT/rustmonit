@@ -1,4 +1,4 @@
-# ⚡ CorePulse
+# ⚡ RustMonit
 
 > High-performance distributed resource monitoring built with Rust & gRPC.
 
