@@ -3,7 +3,7 @@
 > High-performance distributed resource monitoring built with Rust & gRPC.
 
 <p align="center">
-  <img src="./image_8fb479.png" alt="Minimalist CLI Interface" width="900"/>
+  <img src="./rustmonit.png" alt="Minimalist CLI Interface" width="900"/>
 </p>
 
 <p align="center">
