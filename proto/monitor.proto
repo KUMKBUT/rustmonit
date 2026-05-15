@@ -1,0 +1,21 @@
+syntax = "proto3";
+package monitor;
+
+message CoreData {
+  uint32 core_id = 1;
+  float usage = 2;
+}
+
+message MetricsRequest {
+  string hostname = 1;
+  repeated CoreData cores = 2;
+  float memory_usage = 3;
+}
+
+message MetricsResponse {
+  bool success = 1;
+}
+
+service MetricsCollector {
+  rpc SendMetrics (MetricsRequest) returns (MetricsResponse);
+}

@@ -9,3 +9,9 @@ ratatui = "0.26"
 tokio = { version = "1", features = ["full"] }
 sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres"] }
 redis = { version = "0.24", features = ["tokio-comp"] }
+tonic = "0.11"
+prost = "0.12"
+crossterm = "0.27"
+
+[build-dependencies]
+tonic-build = "0.11"
