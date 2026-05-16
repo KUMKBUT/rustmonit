@@ -28,7 +28,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut sys = System::new_all();
     let delay = Duration::from_secs(1);
 
-    let mut client = MetricsCollectorClient::connect("http://100.124.135.86:50051").await?;
+    let mut client = MetricsCollectorClient::connect("http://100.102.1.38:50051").await?;
 
     loop {
         sys.refresh_all();
